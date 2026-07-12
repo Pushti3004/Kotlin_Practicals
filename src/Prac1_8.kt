@@ -30,7 +30,7 @@ fun main(){
     val a = IntArray(5)
     println("Please enter Array Value:")
     for (i in a.indices) {
-        println("a[${i}]:")
+        println("a[$i]:")
         a[i] = readln().toInt()
    }
     println("Entered Array:")
