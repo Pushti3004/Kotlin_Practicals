@@ -92,12 +92,6 @@ fun main() {
     }
 }
 
-
-
-
-
-
-
 //class Car(var model : String, var){
 //    init {
 //        println("init")
