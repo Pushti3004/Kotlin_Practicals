@@ -26,4 +26,38 @@ fun main(){
     )
     println("Create 2D Array-6 by using arrayOf() and intArrayOf():")
     println(arr6.contentDeepToString())
+
+    val a = IntArray(5)
+    println("Please enter Array Value:")
+    for (i in a.indices) {
+        println("a[${i}]:")
+        a[i] = readln().toInt()
+   }
+    println("Entered Array:")
+    println(a.contentToString())
+
+    println("**********With Built-in Functions**********")
+    a.sort()
+    println("After sorting by built-in function:")
+    println(a.joinToString())
+
+    println("\n")
+    val arr = intArrayOf(56, 23, 49, 12, 2)
+    println("**********Without Built-in Functions**********")
+    println("Before sorting:")
+    println(arr.joinToString())
+
+
+    for (i in a.indices) {
+        for (j in 0 until a.size - 1) {
+            if (a[j] > a[j + 1]) {
+                val temp = a[j]
+                a[j] = a[j + 1]
+                a[j + 1] = temp
+            }
+        }
+    }
+
+    println("After Sorting:")
+    println(a.joinToString())
 }
