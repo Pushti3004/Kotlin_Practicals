@@ -3,15 +3,15 @@ fun main(){
     val b= 111
 
     val Addition=add(a,b)
-    println("Addition:"+Addition)
+    println("Addition:$Addition")
     val Subtraction=subtract(a,b)
-    println("Subtraction:"+Subtraction)
+    println("Subtraction:$Subtraction")
     val Multiplication=multiply(a,b)
-    println("Multiplication:"+Multiplication)
+    println("Multiplication:$Multiplication")
     val Division=divide(a,b)
-    println("Division:"+Division)
+    println("Division:$Division")
 }
-
+                                                    // New Function made
 fun add(a:Int,b:Int): Int{
     return a+b
 }
@@ -24,3 +24,4 @@ fun multiply(a:Int,b:Int):Int{
 fun divide(a:Int,b:Int):Int{
     return a/b
 }
+

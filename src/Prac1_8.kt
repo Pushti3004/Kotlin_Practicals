@@ -1,5 +1,5 @@
 fun main(){
-    val arr1 = arrayOf(10,90,60,80,100)
+    val arr1 = arrayOf(10,90,60,80,100)                         // Method to print the array
     println("Create Array-1 by using arrayOf() method: ")
     println(arr1.contentToString())
 
@@ -57,7 +57,7 @@ fun main(){
             }
         }
     }
-
-    println("After Sorting:")
+    println(" ")
+    println("After Sorting Without built-in function:")
     println(a.joinToString())
 }
