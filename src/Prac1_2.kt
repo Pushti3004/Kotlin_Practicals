@@ -3,9 +3,9 @@ fun main(){
     var y:Double=x.toDouble()
     var p:String="10"
     var q:Int=p.toInt()
-    var r:Double=q.toDouble()
-    println("Integer to Double:")
-    println(x)
+    var r:Double=p.toDouble()
+    println("Integer to Double:")        // Converting DataTypes from one to another
+    println(x)                           // Explicit and Implicit
     println(y)
     println("String to Integer:")
     println(q)

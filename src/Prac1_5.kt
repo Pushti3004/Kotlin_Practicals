@@ -14,6 +14,6 @@ fun main(){
         10 -> println("October")
         11 -> println("November")
         12 -> println("December")
-        else -> println("Please enter proper number")
+        else -> println("Please enter proper number.")
     }
 }

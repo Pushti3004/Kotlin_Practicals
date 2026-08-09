@@ -2,7 +2,7 @@ fun main(){
     println("Enter Number:")
     val num= readln().toInt()
     println(
-        if (num%2==0)
+        if (num%2==0)                // condition
             "Even"
         else
             "Odd"

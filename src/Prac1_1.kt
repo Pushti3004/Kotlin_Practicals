@@ -1,7 +1,7 @@
 fun main() {
     var i=1
     var j:Int=2
-    var k:Float=3.03f
+    var k:Float=3.03f      // Initializing a variable with different DataTypes
     var p:Char='S'
     var q:String="Pushti"
     var r:Boolean=true
