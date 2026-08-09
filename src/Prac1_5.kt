@@ -1,7 +1,7 @@
 fun main(){
     println("Enter Month Number:")
     val month = readln().toInt()
-    val month_name= when(month){
+    val month_name= when(month){             // Another way to use switch(Java) in kotlin.
         1 -> println("January")
         2 -> println("February")
         3 -> println("March")
